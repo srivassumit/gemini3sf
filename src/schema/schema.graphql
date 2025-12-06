@@ -1,0 +1,11 @@
+type Book {
+  "The title of the book."
+  title: String
+  "The author of the book."
+  author: String
+}
+
+type Query {
+  "Retrieve a list of all books."
+  books: [Book!]!
+}
