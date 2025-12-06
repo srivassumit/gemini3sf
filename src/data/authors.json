@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "name": "Kate Chopin",
+    "email": "kc@kate.net"
+  },
+  {
+    "id": "2",
+    "name": "Paul Auster",
+    "email": "p_auster@aol.net"
+  },
+  {
+    "id": "3",
+    "name": "Genia Looper",
+    "email": "gloop@gmail.com"
+  }
+]
