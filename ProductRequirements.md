@@ -1,5 +1,6 @@
 # Product Requirements
 
+PR-0: Update the readme add add the line "This repo will be used for checking the PR checker."
 PR-1: Update the books query resolver to return data from the data/books.json file instead of a hardcoded list. The query specifications should be updated to also add the genre field that is present in the data/books.json file.
 
 PR-2: Add a new query to the graphql server that will return Author profiles using the data present in the authors.json file.

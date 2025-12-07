@@ -3,6 +3,8 @@ type Book {
   title: String
   "The author of the book."
   author: String
+  "The genre of the book."
+  genre: String
 }
 
 type Query {

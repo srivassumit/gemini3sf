@@ -1,13 +1,4 @@
-const books = [
-  {
-    title: 'The Awakening',
-    author: 'Kate Chopin',
-  },
-  {
-    title: 'City of Glass',
-    author: 'Paul Auster',
-  },
-];
+import books from '../data/books.json';
 
 export const resolvers = {
   Query: {
