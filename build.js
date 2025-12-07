@@ -22,6 +22,9 @@ await esbuild.build({
   platform: 'node',
   format: 'esm',
   outdir: 'dist',
+  bundle: true,
+  splitting: false,
+  external: ['@apollo/server', 'graphql'],
   plugins: [addExtensionsPlugin],
 });
 

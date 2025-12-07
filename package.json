@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist coverage",
     "build": "node build.js && mkdir -p dist/schema && cp -R src/schema/*.graphql dist/schema/ && mkdir -p dist/data && cp -R src/data/*.json dist/data/",
     "dev": "ts-node src/index.ts",
     "start": "npm run build && node ./dist/index.js",
