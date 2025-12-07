@@ -1,3 +1,12 @@
+type Author {
+  "The unique identifier of the author."
+  id: String
+  "The name of the author."
+  name: String
+  "The email address of the author."
+  gmail: String
+}
+
 type Book {
   "The title of the book."
   title: String
@@ -10,4 +19,6 @@ type Book {
 type Query {
   "Retrieve a list of all books."
   books: [Book!]!
+  "Retrieve a list of all authors."
+  authrs: [Author!]!
 }
