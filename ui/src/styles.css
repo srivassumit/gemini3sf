@@ -1,0 +1,8 @@
+body { font-family: Arial, Helvetica, sans-serif; padding: 24px; }
+.container { max-width: 900px; margin: 0 auto; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #ddd; }
+th { background: #f6f6f6; }
+.loading { color: #666; }
+.error { color: red; }
+.note { margin-top: 16px; color: #444; }
